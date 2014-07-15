@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="9da895bf-0b3b-467f-8325-f730017d4b85" name="VHO70@VHO70-PC 2014-07-14 16:17:51" runUser="VHO70-PC\VHO70" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="dc9b6197-fafc-4636-8edd-39f55c260251">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment userDeploymentRoot="C:\Work\Airstrip\Airstrip.Simulator\TestResults" useDefaultDeploymentRoot="false" enabled="false" runDeploymentRoot="VHO70_VHO70-PC 2014-07-14 16_17_51">
+      <DeploymentItem filename="C:\Work\Airstrip\Airstrip.Simulator\Airstrip.Simulator.Scenarios.GroceryStore\bin\Debug\Airstrip.Simulator.Scenarios.GroceryStore.dll" />
+      <DeploymentItem filename="C:\Work\Airstrip\Airstrip.Simulator\Airstrip.Simulator.Core\bin\Debug\Airstrip.Simulator.Core.dll" />
+      <DeploymentItem filename="C:\Work\Airstrip\Airstrip.Simulator\Airstrip.Simulator.Scenarios.GroceryStore.DataLayer\bin\Debug\Airstrip.Simulator.Scenarios.GroceryStore.DataLayer.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2014-07-14T16:17:51.4420890-07:00" queuing="2014-07-14T16:17:54.8952865-07:00" start="2014-07-14T16:17:55.2353059-07:00" finish="2014-07-14T16:18:41.5849570-07:00" />
+  <ResultSummary outcome="Error">
+    <Counters total="1" executed="1" error="0" failed="0" timeout="0" aborted="1" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" passed="0" completed="0" inProgress="0" pending="0" />
+    <RunInfos>
+      <RunInfo computerName="VHO70-PC" outcome="Error" timestamp="2014-07-14T16:18:41.5829569-07:00">
+        <Text>Test host process exited unexpectedly.</Text>
+      </RunInfo>
+    </RunInfos>
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="Test1" storage="c:\work\airstrip\airstrip.simulator\airstrip.simulator.unittests\bin\debug\airstrip.simulator.unittests.dll" id="af17a0c1-8145-2858-3152-890e8c7bd61d">
+      <Execution id="e41ca140-106f-4d3e-a7ff-62ace83e87bd" />
+      <TestMethod codeBase="C:/Work/Airstrip/Airstrip.Simulator/Airstrip.Simulator.UnitTests/bin/Debug/Airstrip.Simulator.UnitTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Airstrip.Simulator.UnitTests.GroceryStore.ScenarioTests, Airstrip.Simulator.UnitTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Test1" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="af17a0c1-8145-2858-3152-890e8c7bd61d" executionId="e41ca140-106f-4d3e-a7ff-62ace83e87bd" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="e41ca140-106f-4d3e-a7ff-62ace83e87bd" testId="af17a0c1-8145-2858-3152-890e8c7bd61d" testName="Test1" computerName="VHO70-PC" duration="00:00:46.1046370" startTime="2014-07-14T16:17:55.4793199-07:00" endTime="2014-07-14T16:18:41.5839569-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Aborted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="e41ca140-106f-4d3e-a7ff-62ace83e87bd">
+    </UnitTestResult>
+  </Results>
+</TestRun>

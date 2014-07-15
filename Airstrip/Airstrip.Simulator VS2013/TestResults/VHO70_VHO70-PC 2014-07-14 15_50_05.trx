@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="3cc855a5-3279-4cae-99fc-2f81ea8ea0ad" name="VHO70@VHO70-PC 2014-07-14 15:50:05" runUser="VHO70-PC\VHO70" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="dc9b6197-fafc-4636-8edd-39f55c260251">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment userDeploymentRoot="C:\Work\Airstrip\Airstrip.Simulator\TestResults" useDefaultDeploymentRoot="false" enabled="false" runDeploymentRoot="VHO70_VHO70-PC 2014-07-14 15_50_05">
+      <DeploymentItem filename="C:\Work\Airstrip\Airstrip.Simulator\Airstrip.Simulator.Scenarios.GroceryStore\bin\Debug\Airstrip.Simulator.Scenarios.GroceryStore.dll" />
+      <DeploymentItem filename="C:\Work\Airstrip\Airstrip.Simulator\Airstrip.Simulator.Core\bin\Debug\Airstrip.Simulator.Core.dll" />
+      <DeploymentItem filename="C:\Work\Airstrip\Airstrip.Simulator\Airstrip.Simulator.Scenarios.GroceryStore.DataLayer\bin\Debug\Airstrip.Simulator.Scenarios.GroceryStore.DataLayer.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2014-07-14T15:50:05.1903539-07:00" queuing="2014-07-14T15:50:05.1903539-07:00" start="2014-07-14T15:50:05.1903539-07:00" finish="2014-07-14T15:50:05.1973543-07:00" />
+  <ResultSummary outcome="Error">
+    <Counters total="1" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="1" disconnected="0" warning="0" passed="0" completed="0" inProgress="0" pending="0" />
+    <RunInfos>
+      <RunInfo computerName="VHO70-PC" outcome="Error" timestamp="2014-07-14T15:50:05.1973543-07:00">
+        <Text>Failed to queue test run 'VHO70@VHO70-PC 2014-07-14 15:50:05': Method not found: 'Microsoft.VisualStudio.TestTools.Common.AssemblyClrVersion Microsoft.VisualStudio.TestTools.Execution.HostProcessPlatformHelper.get_CurrentClrVersion()'.</Text>
+        <Exception>System.MissingMethodException: Method not found: 'Microsoft.VisualStudio.TestTools.Common.AssemblyClrVersion Microsoft.VisualStudio.TestTools.Execution.HostProcessPlatformHelper.get_CurrentClrVersion()'.
+   at Microsoft.VisualStudio.TestTools.Agent.AgentProcessManager..ctor(DataCollectionEnvironmentContext dataCollectionEnvironmentContext, IDeploymentManager deploymentManager, ProcessStrategy processStrategy, AgentStatusAggregator agentStatusAggregator)
+   at Microsoft.VisualStudio.TestTools.Agent.AgentProcessManager..ctor(DataCollectionEnvironmentContext dataCollectionEnvironmentContext)
+   at Microsoft.VisualStudio.TestTools.TestManagement.LocalControllerProxy.StartProcess(TestRun run)
+   at Microsoft.VisualStudio.TestTools.TestManagement.LocalControllerProxy.PrepareProcess(TestRun run)
+   at Microsoft.VisualStudio.TestTools.TestManagement.LocalControllerProxy.InitializeController(TestRun run)
+   at Microsoft.VisualStudio.TestTools.TestManagement.ControllerProxy.QueueTestRunWorker(Object state)</Exception>
+      </RunInfo>
+    </RunInfos>
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="Test1" storage="c:\work\airstrip\airstrip.simulator\airstrip.simulator.unittests\bin\debug\airstrip.simulator.unittests.dll" id="af17a0c1-8145-2858-3152-890e8c7bd61d">
+      <TestMethod codeBase="C:/Work/Airstrip/Airstrip.Simulator/Airstrip.Simulator.UnitTests/bin/Debug/Airstrip.Simulator.UnitTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Airstrip.Simulator.UnitTests.GroceryStore.ScenarioTests, Airstrip.Simulator.UnitTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Test1" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="af17a0c1-8145-2858-3152-890e8c7bd61d" executionId="27d06506-b230-44d5-ad65-0bba55df29df" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="27d06506-b230-44d5-ad65-0bba55df29df" testId="af17a0c1-8145-2858-3152-890e8c7bd61d" testName="Test1" computerName="VHO70-PC" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="27d06506-b230-44d5-ad65-0bba55df29df">
+    </UnitTestResult>
+  </Results>
+</TestRun>
