@@ -1,9 +1,0 @@
-﻿<?xml version='1.0' encoding='utf-8'?>
-<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="Airstrip.Simulator.Scenarios.GroceryStore.DataLayer.Properties" GeneratedClassName="Settings">
-  <Profiles />
-  <Settings>
-    <Setting Name="TestFileDirectory" Type="System.String" Scope="Application">
-      <Value Profile="(Default)">C:\Work\Airstrip\Airstrip.Simulator\Data\Tests</Value>
-    </Setting>
-  </Settings>
-</SettingsFile>
