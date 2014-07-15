@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="32c5d528-83c1-45e5-924d-3ed459e35890" name="VHO70@VHO70-PC 2014-07-14 16:30:47" runUser="VHO70-PC\VHO70" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="dc9b6197-fafc-4636-8edd-39f55c260251">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="VHO70_VHO70-PC 2014-07-14 16_30_47">
+      <DeploymentItem filename="C:\Work\Airstrip\Airstrip.Simulator\Airstrip.Simulator.Scenarios.GroceryStore\bin\Debug\Airstrip.Simulator.Scenarios.GroceryStore.dll" />
+      <DeploymentItem filename="C:\Work\Airstrip\Airstrip.Simulator\Airstrip.Simulator.Core\bin\Debug\Airstrip.Simulator.Core.dll" />
+      <DeploymentItem filename="C:\Work\Airstrip\Airstrip.Simulator\Airstrip.Simulator.Scenarios.GroceryStore.DataLayer\bin\Debug\Airstrip.Simulator.Scenarios.GroceryStore.DataLayer.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2014-07-14T16:30:47.6694867-07:00" queuing="2014-07-14T16:30:47.7744927-07:00" start="2014-07-14T16:30:47.7804930-07:00" finish="2014-07-14T16:30:48.1335132-07:00" />
+  <ResultSummary outcome="Completed">
+    <Counters total="5" executed="5" passed="5" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="Test4" storage="c:\work\airstrip\airstrip.simulator\airstrip.simulator.unittests\bin\debug\airstrip.simulator.unittests.dll" id="ba1b255d-c22a-31d7-0cb1-43735ca22d0f">
+      <Execution id="4c58693c-2abb-464e-91ee-b85b48d20f01" />
+      <TestMethod codeBase="C:/Work/Airstrip/Airstrip.Simulator/Airstrip.Simulator.UnitTests/bin/Debug/Airstrip.Simulator.UnitTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Airstrip.Simulator.UnitTests.GroceryStore.ScenarioTests, Airstrip.Simulator.UnitTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Test4" />
+    </UnitTest>
+    <UnitTest name="Test1" storage="c:\work\airstrip\airstrip.simulator\airstrip.simulator.unittests\bin\debug\airstrip.simulator.unittests.dll" id="af17a0c1-8145-2858-3152-890e8c7bd61d">
+      <Execution id="e3aeafdf-2cb5-4d8d-8efb-7945e816bd1d" />
+      <TestMethod codeBase="C:/Work/Airstrip/Airstrip.Simulator/Airstrip.Simulator.UnitTests/bin/Debug/Airstrip.Simulator.UnitTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Airstrip.Simulator.UnitTests.GroceryStore.ScenarioTests, Airstrip.Simulator.UnitTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Test1" />
+    </UnitTest>
+    <UnitTest name="Test2" storage="c:\work\airstrip\airstrip.simulator\airstrip.simulator.unittests\bin\debug\airstrip.simulator.unittests.dll" id="be0e3fa2-306c-389f-c7f4-76f8ef9d2efb">
+      <Execution id="57696fd3-7cc5-4f3c-a978-4eb98891910e" />
+      <TestMethod codeBase="C:/Work/Airstrip/Airstrip.Simulator/Airstrip.Simulator.UnitTests/bin/Debug/Airstrip.Simulator.UnitTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Airstrip.Simulator.UnitTests.GroceryStore.ScenarioTests, Airstrip.Simulator.UnitTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Test2" />
+    </UnitTest>
+    <UnitTest name="Test5" storage="c:\work\airstrip\airstrip.simulator\airstrip.simulator.unittests\bin\debug\airstrip.simulator.unittests.dll" id="63b71363-e5c1-0996-40cf-7c6a3a549549">
+      <Execution id="960568b5-cd3b-4a95-a533-c62003627cb3" />
+      <TestMethod codeBase="C:/Work/Airstrip/Airstrip.Simulator/Airstrip.Simulator.UnitTests/bin/Debug/Airstrip.Simulator.UnitTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Airstrip.Simulator.UnitTests.GroceryStore.ScenarioTests, Airstrip.Simulator.UnitTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Test5" />
+    </UnitTest>
+    <UnitTest name="Test3" storage="c:\work\airstrip\airstrip.simulator\airstrip.simulator.unittests\bin\debug\airstrip.simulator.unittests.dll" id="cfb15deb-f490-b881-e2ea-dcb2947b79d3">
+      <Execution id="e8e78d31-c722-4b9e-a928-c6c4f68c5d55" />
+      <TestMethod codeBase="C:/Work/Airstrip/Airstrip.Simulator/Airstrip.Simulator.UnitTests/bin/Debug/Airstrip.Simulator.UnitTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Airstrip.Simulator.UnitTests.GroceryStore.ScenarioTests, Airstrip.Simulator.UnitTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Test3" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="af17a0c1-8145-2858-3152-890e8c7bd61d" executionId="e3aeafdf-2cb5-4d8d-8efb-7945e816bd1d" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="be0e3fa2-306c-389f-c7f4-76f8ef9d2efb" executionId="57696fd3-7cc5-4f3c-a978-4eb98891910e" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="cfb15deb-f490-b881-e2ea-dcb2947b79d3" executionId="e8e78d31-c722-4b9e-a928-c6c4f68c5d55" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="ba1b255d-c22a-31d7-0cb1-43735ca22d0f" executionId="4c58693c-2abb-464e-91ee-b85b48d20f01" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="63b71363-e5c1-0996-40cf-7c6a3a549549" executionId="960568b5-cd3b-4a95-a533-c62003627cb3" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="e3aeafdf-2cb5-4d8d-8efb-7945e816bd1d" testId="af17a0c1-8145-2858-3152-890e8c7bd61d" testName="Test1" computerName="VHO70-PC" duration="00:00:00.0390836" startTime="2014-07-14T16:30:47.8124948-07:00" endTime="2014-07-14T16:30:48.0395078-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="e3aeafdf-2cb5-4d8d-8efb-7945e816bd1d">
+    </UnitTestResult>
+    <UnitTestResult executionId="57696fd3-7cc5-4f3c-a978-4eb98891910e" testId="be0e3fa2-306c-389f-c7f4-76f8ef9d2efb" testName="Test2" computerName="VHO70-PC" duration="00:00:00.0014920" startTime="2014-07-14T16:30:48.0555087-07:00" endTime="2014-07-14T16:30:48.0595090-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="57696fd3-7cc5-4f3c-a978-4eb98891910e">
+    </UnitTestResult>
+    <UnitTestResult executionId="e8e78d31-c722-4b9e-a928-c6c4f68c5d55" testId="cfb15deb-f490-b881-e2ea-dcb2947b79d3" testName="Test3" computerName="VHO70-PC" duration="00:00:00.0006586" startTime="2014-07-14T16:30:48.0735098-07:00" endTime="2014-07-14T16:30:48.0765099-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="e8e78d31-c722-4b9e-a928-c6c4f68c5d55">
+    </UnitTestResult>
+    <UnitTestResult executionId="4c58693c-2abb-464e-91ee-b85b48d20f01" testId="ba1b255d-c22a-31d7-0cb1-43735ca22d0f" testName="Test4" computerName="VHO70-PC" duration="00:00:00.0002837" startTime="2014-07-14T16:30:48.0885106-07:00" endTime="2014-07-14T16:30:48.0915108-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="4c58693c-2abb-464e-91ee-b85b48d20f01">
+    </UnitTestResult>
+    <UnitTestResult executionId="960568b5-cd3b-4a95-a533-c62003627cb3" testId="63b71363-e5c1-0996-40cf-7c6a3a549549" testName="Test5" computerName="VHO70-PC" duration="00:00:00.0003536" startTime="2014-07-14T16:30:48.0995113-07:00" endTime="2014-07-14T16:30:48.1025114-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="960568b5-cd3b-4a95-a533-c62003627cb3">
+    </UnitTestResult>
+  </Results>
+</TestRun>
